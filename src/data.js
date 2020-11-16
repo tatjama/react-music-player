@@ -1,6 +1,12 @@
 import { v4 as uuidv4} from 'uuid';
+import loseYourselfImage from './images/lose-yourself.jpeg';
+import loseYourself from './music/Eminem - Lose Yourself (Lyrics).mp3';
+import rapGodImage from './images/rap-god.jpg';
+import rapGod from './music/Eminem - Rap God (Explicit) [Official Video].mp3';
 
 function chillHop(){
+
+    const variab = "https://chillhop.com/wp-content/uploads/2020/06/49f6e32ca521fbad46a1b281e3893cf6254bf11d-300x300.jpg";
     return[
         {
             name: "Bookshelves",
@@ -71,6 +77,24 @@ function chillHop(){
             artist: "Ian Ewing, Strehlow",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9363",
             color: ["#FCF1D5", "#937084"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Lose Yourself",
+            cover: loseYourselfImage,
+            artist: "Eminem",
+            audio: loseYourself,
+            color: ["#CDBF33", "#514848"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Rap God",
+            cover: rapGodImage,
+            artist: "Eminem",
+            audio: rapGod,
+            color: ["#53D659", "#E1053D"],
             id: uuidv4(),
             active: false
         }
