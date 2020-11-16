@@ -33,16 +33,16 @@ input[type="range"]:focus{
 }
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    background: black;
     width: 16px;
     height: 16px;
 }
 .track{
-    background: lightblue;
+    background: lightblue;    
     width: 100%;
     height: 1rem;
     position: relative;
     overflow: hidden;
+    border-radius: 30px;
 }
 .animate-track{
     background-color: rgb(204, 204, 204);
