@@ -3,6 +3,12 @@ import loseYourselfImage from './images/lose-yourself.jpeg';
 import loseYourself from './music/Eminem - Lose Yourself (Lyrics).mp3';
 import rapGodImage from './images/rap-god.jpg';
 import rapGod from './music/Eminem - Rap God (Explicit) [Official Video].mp3';
+import slimShadyImage from './images/slim-shady.png';
+import slimShady from './music/Eminem - Rap God (Explicit) [Official Video].mp3';
+import notAfraidImage from './images/not-afraid.jpg';
+import notAfraid from './music/Eminem - Not Afraid (Official Video).mp3';
+import loveWayLieImage from './images/love-the-way-you-lie.jpeg';
+import loveWayLie from './music/Eminem - Love The Way You Lie ft. Rihanna.mp3';
 
 function chillHop(){
 
@@ -95,6 +101,33 @@ function chillHop(){
             artist: "Eminem",
             audio: rapGod,
             color: ["#53D659", "#E1053D"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Slim Shady",
+            cover: slimShadyImage,
+            artist: "Eminem",
+            audio: slimShady,
+            color: ["#FF1A08", "#A2C5E9"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Not Afraid",
+            cover: notAfraidImage,
+            artist: "Eminem",
+            audio: notAfraid,
+            color: ["#178CD0", "#9D8F9A"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Love the way you lie",
+            cover: loveWayLieImage,
+            artist: "Eminem",
+            audio: loveWayLie,
+            color: ["#D53E38", "#DDC7B0"],
             id: uuidv4(),
             active: false
         }
