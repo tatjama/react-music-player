@@ -9,6 +9,8 @@ import notAfraidImage from './images/not-afraid.jpg';
 import notAfraid from './music/Eminem - Not Afraid (Official Video).mp3';
 import loveWayLieImage from './images/love-the-way-you-lie.jpeg';
 import loveWayLie from './music/Eminem - Love The Way You Lie ft. Rihanna.mp3';
+import whenImGoneImage from './images/When_Im_Gone.jpg';
+import whenImGone from './music/Eminem - When Im Gone (Official Music Video).mp3';
 import frozenImage from './images/frozen.jpeg';
 import frozen from './music/FROZENLet It Go Sing-alongOfficial Disney UK.mp3';
 import frozen2Image from './images/frozen2.jpeg';
@@ -19,6 +21,7 @@ import danceMankeyImage from './images/dance-monkey.jpeg';
 import danceMonkey from './music/Tones and I - Dance Monkey (Lyrics).mp3';
 import heyBrotherImage from './images/hey-brother.jpeg';
 import heyBrother from './music/Avicii - Hey brother.mp3';
+
 
 function chillHop(){
 
@@ -109,7 +112,7 @@ function chillHop(){
             cover: danceMankeyImage,
             artist: "Tones and I",
             audio: danceMonkey,
-            color: ["#0DA5C7", "#E96146"],
+            color: ["#F3E550", "#E96146"],
             id: uuidv4(),
             active: false
         },
@@ -182,6 +185,15 @@ function chillHop(){
             artist: "Eminem",
             audio: loveWayLie,
             color: ["#D53E38", "#DDC7B0"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "When Im gone",
+            cover: whenImGoneImage,
+            artist: "Eminem",
+            audio: whenImGone,
+            color: ["#96B978", "#FDFDFD"],
             id: uuidv4(),
             active: false
         }
