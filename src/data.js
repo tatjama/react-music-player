@@ -4,7 +4,7 @@ import loseYourself from './music/Eminem - Lose Yourself (Lyrics).mp3';
 import rapGodImage from './images/rap-god.jpg';
 import rapGod from './music/Eminem - Rap God (Explicit) [Official Video].mp3';
 import slimShadyImage from './images/slim-shady.png';
-import slimShady from './music/Eminem - Rap God (Explicit) [Official Video].mp3';
+import slimShady from './music/Eminem - The Real Slim Shady (Official Video - Clean Version).mp3';
 import notAfraidImage from './images/not-afraid.jpg';
 import notAfraid from './music/Eminem - Not Afraid (Official Video).mp3';
 import loveWayLieImage from './images/love-the-way-you-lie.jpeg';
