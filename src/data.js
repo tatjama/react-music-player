@@ -109,7 +109,7 @@ function chillHop(){
             cover: danceMankeyImage,
             artist: "Tones and I",
             audio: danceMonkey,
-            color: ["#F5E246", "#E96146"],
+            color: ["#0DA5C7", "#E96146"],
             id: uuidv4(),
             active: false
         },
