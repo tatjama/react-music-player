@@ -12,7 +12,6 @@ import loveWayLie from './music/Eminem - Love The Way You Lie ft. Rihanna.mp3';
 
 function chillHop(){
 
-    const variab = "https://chillhop.com/wp-content/uploads/2020/06/49f6e32ca521fbad46a1b281e3893cf6254bf11d-300x300.jpg";
     return[
         {
             name: "Bookshelves",
