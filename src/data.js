@@ -1,4 +1,22 @@
 import { v4 as uuidv4} from 'uuid';
+import buenaVistaImage from './images/buena-vista-social-club-album-cover.jpg';
+import comandanteCheGevara from './music/Buena Vista Social Club - Hasta Siempre - Comandante Che Guevara.mp3';
+import chanChan from './music/Buena Vista Social Club - Chan Chan (Official Audio).mp3';
+import gipsyKingsImage from './images/Gipsy_Kings.jpg';
+import moorea from'./music/Gipsy Kings - Moorea.mp3';
+import unAmore from './music/Gipsy Kings - Un Amor.mp3';
+import tuQueresVolver from './music/Gipsy Kings - Tu Quieres Volver.mp3';
+import santanaImage from './images/santana.jpg';
+import blackMagicWomen from './music/Santana - Black Magic Woman (Official Audio).mp3';
+import corazonEspinado from './music/Santana - Corazon Espinado ft. Mana (Official Video).mp3';
+import putYourLightsOn from './music/Santana - Put Your Lights On ft. Everlast (Official Video).mp3';
+import smooth from './music/Santana - Smooth ft. Rob Thomas (Official Video).mp3';
+import metallicaImage from './images/metallica.jpg';
+import one from './music/Metallica One (Official Music Video).mp3';
+import unforgiven from './music/Metallica The Unforgiven (Official Music Video).mp3';
+import edSheeranImage from './images/ed_sheeran.jpg';
+import shapeOfYou from './music/Ed Sheeran - Shape of You [Official Video].mp3';
+import takeMeBackToLondon from './music/Ed Sheeran - Take Me Back To London (Sir Spyro Remix) [feat. Stormzy, Jaykae & Aitch].mp3';
 import loseYourselfImage from './images/lose-yourself.jpeg';
 import loseYourself from './music/Eminem - Lose Yourself (Lyrics).mp3';
 import rapGodImage from './images/rap-god.jpg';
@@ -9,6 +27,7 @@ import notAfraidImage from './images/not-afraid.jpg';
 import notAfraid from './music/Eminem - Not Afraid (Official Video).mp3';
 import loveWayLieImage from './images/love-the-way-you-lie.jpeg';
 import loveWayLie from './music/Eminem - Love The Way You Lie ft. Rihanna.mp3';
+import river from './music/Eminem - River ft. Ed Sheeran (Official Video).mp3';
 import whenImGoneImage from './images/When_Im_Gone.jpg';
 import whenImGone from './music/Eminem - When Im Gone (Official Music Video).mp3';
 import frozenImage from './images/frozen.jpeg';
@@ -20,7 +39,11 @@ import friends from './music/Marshmello & Anne-Marie - FRIENDS (Lyric Video) OFF
 import danceMankeyImage from './images/dance-monkey.jpeg';
 import danceMonkey from './music/Tones and I - Dance Monkey (Lyrics).mp3';
 import heyBrotherImage from './images/hey-brother.jpeg';
+import addictedToYou from './music/Avicii - Addicted To You.mp3';
 import heyBrother from './music/Avicii - Hey brother.mp3';
+import levels from './music/Avicii - Levels.mp3';
+import waitingForLove from './music/Avicii - Waiting For Love.mp3';
+import wakeMeUp from './music/Avicii - Wake Me Up (Official Video).mp3';
 
 
 function chillHop(){
@@ -99,10 +122,145 @@ function chillHop(){
             active: false
         },
         {
+            name: "Comandante Che Guevara",
+            cover: buenaVistaImage,
+            artist: "Buena Vista Social Club",
+            audio: comandanteCheGevara,
+            color: ["#D9C586", "#8F2E29"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Chan Chan",
+            cover: buenaVistaImage,
+            artist: "Buena Vista Social Club",
+            audio: chanChan,
+            color: ["#D9C586", "#8F2E29"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Moorea",
+            cover: gipsyKingsImage,
+            artist: "Gipsy Kings",
+            audio: moorea,
+            color: ["#E6CA5D", "#853712"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Tu Queres Volver",
+            cover: gipsyKingsImage,
+            artist: "Gipsy Kings",
+            audio: tuQueresVolver,
+            color: ["#E6CA5D", "#853712"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Un Amore",
+            cover: gipsyKingsImage,
+            artist: "Gipsy Kings",
+            audio: unAmore,
+            color: ["#E6CA5D", "#853712"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Black Magic Women",
+            cover: santanaImage,
+            artist: "Santana",
+            audio: blackMagicWomen,
+            color: ["#D87859", "#5D6A9C"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Corason Espinado",
+            cover: santanaImage,
+            artist: "Santana",
+            audio: corazonEspinado,
+            color: ["#D87859", "#5D6A9C"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Put Your Lights On",
+            cover: santanaImage,
+            artist: "Santana",
+            audio: putYourLightsOn,
+            color: ["#D87859", "#5D6A9C"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Smooth",
+            cover: santanaImage,
+            artist: "Santana",
+            audio: smooth,
+            color: ["#D87859", "#5D6A9C"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "One",
+            cover: metallicaImage,
+            artist: "Metallica",
+            audio: one,
+            color: ["#FDDC29", "#A55A55"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "The Unforgiven",
+            cover: metallicaImage,
+            artist: "Metallica",
+            audio: unforgiven,
+            color: ["#FDDC29", "#A55A55"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Addicted to You",
+            cover: heyBrotherImage,
+            artist: "Avicci",
+            audio: addictedToYou,
+            color: ["#41F3A0", "#599D9B"],
+            id: uuidv4(),
+            active: false
+        },
+        {
             name: "Hey brother",
             cover: heyBrotherImage,
             artist: "Avicci",
             audio: heyBrother,
+            color: ["#41F3A0", "#599D9B"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Levels",
+            cover: heyBrotherImage,
+            artist: "Avicci",
+            audio: levels,
+            color: ["#41F3A0", "#599D9B"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Waiting for Love",
+            cover: heyBrotherImage,
+            artist: "Avicci",
+            audio: waitingForLove,
+            color: ["#41F3A0", "#599D9B"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Wake me up",
+            cover: heyBrotherImage,
+            artist: "Avicci",
+            audio: wakeMeUp,
             color: ["#41F3A0", "#599D9B"],
             id: uuidv4(),
             active: false
@@ -140,6 +298,33 @@ function chillHop(){
             artist: "Frozen 2",
             audio: frozen2,
             color: ["#BAC3CD", "#586285"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Shape of you",
+            cover: edSheeranImage,
+            artist: "Ed Sheeran",
+            audio: shapeOfYou,
+            color: ["#66B5D9", "#252621"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "Take me back to London",
+            cover: edSheeranImage,
+            artist: "Ed Sheeran",
+            audio: takeMeBackToLondon,
+            color: ["#66B5D9", "#252621"],
+            id: uuidv4(),
+            active: false
+        },
+        {
+            name: "River",
+            cover: whenImGoneImage,
+            artist: "Eminem & Ed Sheeran",
+            audio: river,
+            color: ["#96B978", "#FDFDFD"],
             id: uuidv4(),
             active: false
         },
